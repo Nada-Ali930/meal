@@ -1,0 +1,33 @@
+body{
+    background-color:#F4F2EE;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#animate:hover{
+    
+
+     &{
+        transform: scale(105%);
+        transition: transform .6s;
+     } 
+     img{
+        animation: rotate 1s linear;
+        
+     }
+     
+
+}
+.active{
+  background-color: #F29724;
+  box-shadow:orange;
+}
+
